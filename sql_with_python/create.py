@@ -50,11 +50,11 @@ try:
     """)
 
     con.commit()
-    print("Tabelas criadas com sucesso!")
+    print("Create table sucess!")
 
 except Exception as e:
     con.rollback()
-    print("Erro ao criar tabelas:", e)
+    print("Error:", e)
 
 finally:
     cur.close()
