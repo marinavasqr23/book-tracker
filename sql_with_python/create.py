@@ -20,7 +20,11 @@ try:
 
     cur.execute("""
         CREATE TABLE IF NOT EXISTS Author (
+<<<<<<< HEAD
             id SERIAL PRIMARY KEY,
+=======
+            id INT PRIMARY KEY,
+>>>>>>> e365000185ce93d7b81c3b6490614613067bcec8
             name VARCHAR(100),
             birth_date DATE,
             country VARCHAR(50),
@@ -30,7 +34,11 @@ try:
 
     cur.execute("""
         CREATE TABLE IF NOT EXISTS Book (
+<<<<<<< HEAD
             id SERIAL PRIMARY KEY,
+=======
+            id INT PRIMARY KEY,
+>>>>>>> e365000185ce93d7b81c3b6490614613067bcec8
             title VARCHAR(100),
             num_pags INT,
             publication_year DATE,
