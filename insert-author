@@ -1,0 +1,9 @@
+INSERT INTO Author (name, birth_date, country, biography)  
+VALUES  
+('Raphael Montes', '1990-09-22', 'Brasil',  
+ 'Raphael Montes é um escritor, roteirista e advogado brasileiro, conhecido por seus livros de suspense e thriller psicológico.  
+  Nascido em 22 de setembro de 1990, no Rio de Janeiro, ele se destacou na literatura nacional com narrativas sombrias e repletas de reviravoltas.  
+  Seu primeiro romance, *Suicidas* (2012), foi finalista de prêmios importantes, e sua obra mais famosa, *Dias Perfeitos* (2014),  
+  foi traduzida para vários idiomas. Outros livros notáveis incluem *Jantar Secreto* (2016) e *Uma Mulher no Escuro* (2019).  
+  Além da literatura, Raphael também atua como roteirista, tendo participado da adaptação da série *Bom Dia, Verônica* para a Netflix.  
+  Ele é conhecido por sua escrita intensa, personagens complexos e histórias que exploram o lado mais obscuro da mente humana.');
